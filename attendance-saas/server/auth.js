@@ -1,0 +1,1 @@
+export const authEnabled=()=>false; export const authorized=()=>true; export const deny=(res)=>res.status(401).json({error:'Unauthorized'});
