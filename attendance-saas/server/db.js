@@ -1,0 +1,1 @@
+export const configured=Boolean(process.env.DATABASE_URL);
