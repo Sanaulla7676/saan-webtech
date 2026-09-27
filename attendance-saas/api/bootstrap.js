@@ -1,0 +1,1 @@
+export default function handler(req,res){res.status(200).json({configured:true,employees:[],attendance:[],today:new Date().toISOString().slice(0,10)});}
